@@ -22,6 +22,7 @@ public class HomeController : Controller
         return View(list);
     }
 
+
     public IActionResult New(){
         return View(new TestVm());
     }
